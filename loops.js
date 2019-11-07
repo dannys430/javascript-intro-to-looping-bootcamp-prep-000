@@ -1,3 +1,5 @@
+//for loop
+
 function forLoop(array) {
    for ( let i = 0; i < 25; i++) {
      if (i === 1) {
@@ -8,3 +10,23 @@ function forLoop(array) {
   }
   return array;
 }
+
+
+//while loop
+/*
+function name is "while loop"
+takes a number as argument
+make while loop
+count down using console.log starting from passed in number down to zero
+return string "done"
+*/
+
+
+function whileLoop(number) {
+  while (i !== 0) {
+    console.log(i)
+    i--;
+  }
+  return("done");
+}
+
