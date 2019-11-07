@@ -23,7 +23,7 @@ return string "done"
 
 
 function whileLoop(number) {
-  while (i !== 0) {
+  while (let i = Math.random(), i !== 0) {
     console.log(i)
     i--;
   }
