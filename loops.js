@@ -22,10 +22,11 @@ return string "done"
 */
 
 
-function whileLoop(number) {
-  while (let i = Math.random(), i !== 0) {
-    console.log(i)
-    i--;
-  }
-  return("done");
+function whileLoop(n) {
+  let countdown = n;
+
+    while (countdown > 0) {
+      console.log(--countdown);
+    }
+    return("done");
 }
